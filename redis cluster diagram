@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T12:22:01.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="GTwHKx5Z_1jVvLhHm49r" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-20T13:38:39.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="PgxSXzkFhNRT38GRseRv" version="20.0.1" type="github">
   <diagram id="aVvVoGEbQju7ttEH42-e" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,6 +99,79 @@
         </mxCell>
         <mxCell id="BnNpnPRReUpv64TEcoRN-33" value="slave" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;fontColor=#009999;" vertex="1" parent="1">
           <mxGeometry x="25" y="350" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="660" width="550" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="BnNpnPRReUpv64TEcoRN-35" target="BnNpnPRReUpv64TEcoRN-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-35" value="ECK&lt;br&gt;Operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="175" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;kubernetes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="BnNpnPRReUpv64TEcoRN-39" target="BnNpnPRReUpv64TEcoRN-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Elasticsearch&amp;nbsp;&amp;nbsp;&lt;br&gt;DaemonSet&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="385" y="720" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-41" value="manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="BnNpnPRReUpv64TEcoRN-43" target="BnNpnPRReUpv64TEcoRN-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-43" value="Application Server&lt;br&gt;Deployment" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="175" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-45" value="app data&lt;br&gt;over HTTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="800" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-46" value="&lt;span style=&quot;&quot;&gt;Kibana&lt;br&gt;Deployment&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-48" value="MASTER1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1080" width="155" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-50" value="MASTER2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1080" width="155" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BnNpnPRReUpv64TEcoRN-51" target="BnNpnPRReUpv64TEcoRN-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="1360" />
+              <mxPoint x="435" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-51" value="bin_log" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1180" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-52" value="relay_log" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1180" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BnNpnPRReUpv64TEcoRN-53" target="BnNpnPRReUpv64TEcoRN-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="1320" />
+              <mxPoint x="295" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-53" value="bin_log" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1190" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-54" value="relay_log" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1190" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-58" value="REPLICATION" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="285" y="1025" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BnNpnPRReUpv64TEcoRN-59" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;fontSize=17;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1070" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
